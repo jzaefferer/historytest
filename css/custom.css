@@ -4,3 +4,7 @@ body {
 #submit-result, #gathering-feedback, #step-two, #thanks {
 	display: none;
 }
+footer {
+	font-size: .85em;
+	margin-top: 3em;
+}
