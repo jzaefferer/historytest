@@ -1,0 +1,9 @@
+# HTML5 History Test
+
+An interactive test for the HTML5 history API, with focus on the addressbar updating properly - something too many implementions still get wrong.
+
+Test results are gathered via Browserscope.
+
+## License
+Copyright (c) 2012 Jörn Zaefferer
+Licensed under the MIT license.

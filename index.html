@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML5 History Test</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<div class="container">
+		<h1>HTML5 History Test</h1>
+		<p>An interactive test for the HTML5 history API, with focus on the addressbar updating properly - something too many implementions still get wrong.</p>
+		<p>First, testing if your browser claims to support the new API: <span id="basic-support"></span></p>
+	</div>
+	<div id="step-two">
+		<h2>Basic support detected</h2>
+		<p>It looks like your browser supports the HTML5 history API, so we can go to the second (and for now, last) step.</p>
+		<p>For that your help is needed. Click the button below and see if the address in your browser chrome changes.</p>
+		<button id="change-history">Push state, then check address</button>
+	</div>
+	<div id="gathering-feedback">
+		<h2>What happened?</h2>
+		<button id="success">Did the address change?</button>
+		<button id="failure">Did it stay the same?</button>
+		<p>If you're on a mobile browser, you may have to tap the address first to see it in full.</p>
+		<p>Look for "?test-state" at the end (not the question mark).</p>
+	</div>
+	<div id="thanks">
+		<h2>Submitted</h2>
+		<p>Thank you for your testing help! Loading results table...</p>
+	</div>
+	<button id="submit-result"><span id="detail-result"></span>Submit this result to Browserscope</button>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+	<script src="historytest.js"></script>
+</body>
+</html>
